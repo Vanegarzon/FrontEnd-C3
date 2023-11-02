@@ -31,7 +31,7 @@ color:red
     flex-direction:'row';
     align-items: center;
     background-color: gray;
-    border: 10px solid red;
+    border: 05px solid red;
     border-radius: 10px;
 
 }

@@ -13,7 +13,7 @@ const [error, setError] = useState(false)
 const handleSubmit = (event)=> {
  event.preventDefault()
 
- if(nombre.length > 5 && animal.length > 5 && nombre.includes(" "))
+ if(nombre.length > 1 && animal.length > 1 && nombre.includes(" "))
  { setError(false)
     setShow(true);
     
@@ -26,7 +26,7 @@ const handleSubmit = (event)=> {
     <label className={titulo}>Elige Tu Animal Favorito</label>
         <input type="text" value={animal} onChange={(event) => setAnimal(event.target.value)}/>
     
-    <label className={titulo}>Ingresa tu nombre completo</label>
+    <label className={titulo}>Ingresa tu nombre y apellido completo</label>
     
         <input type="text"value={nombre} onChange={(event) => setNombre(event.target.value.trimStart())} />
        <button>ENVIAR</button>

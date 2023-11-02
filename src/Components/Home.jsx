@@ -1,6 +1,6 @@
 import React from 'react'
 //import homeStyles from './Home.module.css'
-import {home, titulo, subtitulos } from './Home.module.css'
+import {home} from './Home.module.css'
 import Formulario from './Formulario'
 
 //const homeStyle= {display:'flex', flexDirection:'column', justifyContent: 'space-around'}//

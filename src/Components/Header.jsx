@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   
-  const encabezado = ['Inicio ', 'Mensaje']
+  const encabezado = ['Parcial ', 'Mensaje']
     return (
     <div>
         {encabezado.map((txto, index) => {
